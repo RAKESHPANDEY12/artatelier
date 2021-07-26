@@ -1,0 +1,79 @@
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+/*.logop{height:250px;width:100%;}*/
+.logoph{background-image:url("images/image/IMG-20210617-WA0044.jpg");
+height:250px;width:100%;
+background-size:100% 100%;
+background-repeat: no-repeat;
+background-position:center center;
+
+}
+
+
+.readmore{width:60%;padding-left:8%;
+display:inline-block;
+float:left;
+box-sizing:border-box;
+}
+.ifame{margin-top:90px;margin-bottom:70px;height:250px;}
+.iframe1{width:40%;padding:0% 2%;float:left;
+}
+.hed{clear:both;margin-top:50px;overflow:visible;height:500px;}
+
+form{padding:10px;
+width:30%;
+justify-content:flex-end;
+display:flex;
+float:right;}
+
+.first{display:flex;justify-content:center;}
+.second{display:flex;justify-content:center;padding:2px;}
+
+footer{clear:left;
+width:100%;height:400px;margin-top:50px;background-image:url("images/image/wide-blackboard-wooden-frame-260nw-285140861.jpg");
+background-size:100% 100%;
+background-repeat: no-repeat;
+background-position:center center;
+
+}
+.footersec{color:white;text-decoration:none;
+padding:10px 20px 20px 70px;}
+#myVideo {
+  position: relative;
+ margin:0 auto;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 500px;
+}
+.vedio{display:flex;justify-content:center;width:100%;}
+.overlay{z-index:1;    position:relative;
+    top:0;
+left:0;}
+.aboutus{line-height:1.6;display:inline;}
+
+@media (max-width:560px){.vedio{margin-top:40px;}
+	form{clear:both;width:100%;}
+	.ifame{margin-top:40px !important;}
+	.header1{display:flex;clear:both;margin-top:10px;width:100%;float:left;font-size:25px;margin-bottom:30px !important;}
+	.header1 div sub{font-size:20px !important;}
+.readmore{overflow:auto;}
+footer{margin-top:10px;}}
+
+@media (min-width:560px){
+	form{padding:10px;
+width:30%;
+justify-content:flex-end;
+display:flex;
+float:right;margin-bottom:5px;}
+.header1{width:70%;
+height:25px;
+font-size:35px;text-align:left;display:inline-block;
+padding-left:18px;margin-bottom:5px;margin-top:0px;}
+		.header1 div sub{font-size:15px !important;}
+}
+
